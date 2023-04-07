@@ -1,3 +1,4 @@
 <resources>
     <font id="Mono" filename="fonts/LxGrid5Mono.fnt" />
+    <bitmap id="LauncherIcon" filename="drawables/launcher_icon.png" />
 </resources>
