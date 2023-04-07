@@ -1,4 +1,6 @@
 <strings>
     <string id="AppName">Datasheets</string>
     <string id="AppVersion">0.1.0</string>
+
+    <string id="MainMenu_Sheets">All Sheets</string>
 </strings>

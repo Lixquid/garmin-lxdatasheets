@@ -38,7 +38,7 @@ function lxCreateCategoryMenu(categories as Array<Number>) {
         name = entries[categories[i]][0];
         entries = entries[categories[i]][1];
     }
-    var menu = new Menu2({ :title => name == null ? WatchUi.loadResource(Rez.Strings.AppName) : name });
+    var menu = new Menu2({ :title => name == null ? WatchUi.loadResource(Rez.Strings.MainMenu_Sheets) : name });
     for (var i = 0; i < entries.size(); i++) {
         menu.addItem(new MenuItem(entries[i][0], null, i, null));
     }

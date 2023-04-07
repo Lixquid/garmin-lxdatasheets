@@ -17,6 +17,12 @@ class LxDatasheetsMainMenuDelegate extends Menu2InputDelegate {
 
 function lxCreateMainMenu() {
     var menu = new Menu2({ :title => WatchUi.loadResource($.Rez.Strings.AppName) });
-    menu.addItem(new MenuItem(WatchUi.loadResource($.Rez.Strings.AppName), null, :sheets, null));
+    menu.addItem(new MenuItem(WatchUi.loadResource($.Rez.Strings.MainMenu_Sheets), null, :sheets, null));
+    menu.addItem(new MenuItem(
+        WatchUi.loadResource($.Rez.Strings.AppName),
+        WatchUi.loadResource($.Rez.Strings.AppVersion),
+        0,
+        null
+        ));
     return menu;
 }
