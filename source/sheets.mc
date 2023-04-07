@@ -2,11 +2,19 @@ var lxSheets = [
     [
         "Chemistry",
         [
-            ["Periodic Table", [[$.Rez.Strings.Chemistry_PeriodicTable, [
-                {:xAlign => LX_ALIGN_CENTER, :i => $.Rez.Drawables.Chemistry_PeriodicTable_Table},
-                {:cx => 1, :cy => 15, :i => $.Rez.Drawables.Chemistry_PeriodicTable_Legend}
-            ]]]]
-        ]
+            [
+                "Periodic Table",
+                [
+                    [
+                        $.Rez.Strings.Chemistry_PeriodicTable,
+                        [
+                            { :xAlign => LX_ALIGN_CENTER, :i => $.Rez.Drawables.Chemistry_PeriodicTable_Table },
+                            { :cx => 1, :cy => 15, :i => $.Rez.Drawables.Chemistry_PeriodicTable_Legend },
+                        ],
+                    ],
+                ],
+            ],
+        ],
     ],
     [
         "Communication",
@@ -46,35 +54,44 @@ var lxSheets = [
                     [
                         $.Rez.Strings.Electrical_T568,
                         [
-                            {:x => 16, :cy=> 1, :i => $.Rez.Drawables.Electrical_T568_A},
-                            {:x => 24, :cy=> 1, :i => $.Rez.Drawables.Electrical_T568_A},
-                            {:x => 32, :cy=> 1, :i => $.Rez.Drawables.Electrical_T568_A},
-                            {:x => 16, :cy=> 11, :i => $.Rez.Drawables.Electrical_T568_B},
-                            {:x => 24, :cy=> 11, :i => $.Rez.Drawables.Electrical_T568_B},
-                            {:x => 32, :cy=> 11, :i => $.Rez.Drawables.Electrical_T568_B},
-                            {:xAlign => LX_ALIGN_CENTER, :cy=> 21, :i => $.Rez.Drawables.Electrical_T568_Pins},
-                        ]
-                    ]
-                ]
-            ]
+                            { :x => 16, :cy => 1, :i => $.Rez.Drawables.Electrical_T568_A },
+                            { :x => 24, :cy => 1, :i => $.Rez.Drawables.Electrical_T568_A },
+                            { :x => 32, :cy => 1, :i => $.Rez.Drawables.Electrical_T568_A },
+                            { :x => 16, :cy => 11, :i => $.Rez.Drawables.Electrical_T568_B },
+                            { :x => 24, :cy => 11, :i => $.Rez.Drawables.Electrical_T568_B },
+                            { :x => 32, :cy => 11, :i => $.Rez.Drawables.Electrical_T568_B },
+                            { :xAlign => LX_ALIGN_CENTER, :cy => 21, :i => $.Rez.Drawables.Electrical_T568_Pins },
+                        ],
+                    ],
+                ],
+            ],
         ],
     ],
+    ["Games", [["Card Games", [["Thirty One", [[$.Rez.Strings.Games_CardGames_ThirtyOne, []]]]]]]],
     [
         "Medical",
         [
-            ["Recovery Position", [
+            [
+                "Recovery Position",
                 [
-                    $.Rez.Strings.Medical_RecoveryPosition,
                     [
-                        {:xAlign => LX_ALIGN_CENTER, :cy => 7, :i => $.Rez.Drawables.Medical_RecoveryPosition_Pose}
-                    ]
-                ]
-            ]]
-        ]
+                        $.Rez.Strings.Medical_RecoveryPosition,
+                        [{ :xAlign => LX_ALIGN_CENTER, :cy => 7, :i => $.Rez.Drawables.Medical_RecoveryPosition_Pose }],
+                    ],
+                ],
+            ],
+        ],
     ],
     [
-        "Physics", [
-            ["Units", [[$.Rez.Strings.Physics_Units_1, []], [$.Rez.Strings.Physics_Units_2, []]]]
-        ]
-    ]
+        "Physics",
+        [
+            [
+                "Units",
+                [
+                    [$.Rez.Strings.Physics_Units_1, []],
+                    [$.Rez.Strings.Physics_Units_2, []],
+                ],
+            ],
+        ],
+    ],
 ];
