@@ -1,0 +1,149 @@
+<resources>
+    <string id="Chemistry_PeriodicTable">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ALKALI METAL
+   ALKALINE METAL
+   TRANSITION METAL
+   BASIC METAL
+   SEMIMETAL
+   NONMETAL
+   HALOGEN
+   NOBLE GAS
+   LANTHANIDE
+   ACTINIDE
+
+NUM SYM NAME         ATOMIC WT  BLK
+  1  H HYDROGEN      1.008        S
+  2 He HELIUM        4.0026022    S
+  3 Li LITHIUM       6.94         S
+  4 Be BERYLLIUM     9.01218315   S
+  5  B BORON         10.81        P
+  6  C CARBON        12.011       P
+  7  N NITROGEN      14.007       P
+  8  O OXYGEN        15.999       P
+  9  F FLUORINE      18.998403163 P
+ 10 Ne NEON          20.17976     P
+ 11 Na SODIUM        22.989769282 S
+ 12 Mg MAGNESIUM     24.305       S
+ 13 Al ALUMINIUM     26.98153857  P
+ 14 Si SILICON       28.085       P
+ 15  P PHOSPHORUS    30.973761998 P
+ 16  S SULFUR        32.06        P
+ 17 Cl CHLORINE      35.45        P
+ 18 Ar ARGON         39.9481      P
+ 19  K POTASSIUM     39.09831     S
+ 20 Ca CALCIUM       40.0784      S
+ 21 Sc SCANDIUM      44.9559085   D
+ 22 Ti TITANIUM      47.8671      D
+ 23  V VANADIUM      50.94151     D
+ 24 Cr CHROMIUM      51.99616     D
+ 25 Mn MANGANESE     54.9380443   D
+ 26 Fe IRON          55.8452      D
+ 27 Co COBALT        58.9331944   D
+ 28 Ni NICKEL        58.69344     D
+ 29 Cu COPPER        63.5463      D
+ 30 Zn ZINC          65.382       D
+ 31 Ga GALLIUM       69.7231      P
+ 32 Ge GERMANIUM     72.6308      P
+ 33 As ARSENIC       74.9215956   P
+ 34 Se SELENIUM      78.9718      P
+ 35 Br BROMINE       79.904       P
+ 36 Kr KRYPTON       83.7982      P
+ 37 Rb RUBIDIUM      85.46783     S
+ 38 Sr STRONTIUM     87.621       S
+ 39  Y YTTRIUM       88.905842    D
+ 40 Zr ZIRCONIUM     91.2242      D
+ 41 Nb NIOBIUM       92.906372    D
+ 42 Mo MOLYBDENUM    95.951       D
+ 43 Tc TECHNETIUM    98           D
+ 44 Ru RUTHENIUM     101.072      D
+ 45 Rh RHODIUM       102.905502   D
+ 46 Pd PALLADIUM     106.421      D
+ 47 Ag SILVER        107.86822    D
+ 48 Cd CADMIUM       112.4144     D
+ 49 In INDIUM        114.8181     P
+ 50 Sn TIN           118.7107     P
+ 51 Sb ANTIMONY      121.7601     P
+ 52 Te TELLURIUM     127.603      P
+ 53  I IODINE        126.904473   P
+ 54 Xe XENON         131.2936     P
+ 55 Cs CESIUM        132.90545196 S
+ 56 Ba BARIUM        137.3277     S
+ 57 La LANTHANUM     138.905477   F
+ 58 Ce CERIUM        140.1161     F
+ 59 Pr PRASEODYMIUM  140.907662   F
+ 60 Nd NEODYMIUM     144.2423     F
+ 61 Pm PROMETHIUM    145          F
+ 62 Sm SAMARIUM      150.362      F
+ 63 Eu EUROPIUM      151.9641     F
+ 64 Gd GADOLINIUM    157.253      F
+ 65 Tb TERBIUM       158.925352   F
+ 66 Dy DYSPROSIUM    162.5001     F
+ 67 Ho HOLMIUM       164.930332   F
+ 68 Er ERBIUM        167.2593     F
+ 69 Tm THULIUM       168.934222   F
+ 70 Yb YTTERBIUM     173.0451     F
+ 71 Lu LUTETIUM      174.96681    D
+ 72 Hf HAFNIUM       178.492      D
+ 73 Ta TANTALUM      180.947882   D
+ 74  W TUNGSTEN      183.841      D
+ 75 Re RHENIUM       186.2071     D
+ 76 Os OSMIUM        190.233      D
+ 77 Ir IRIDIUM       192.2173     D
+ 78 Pt PLATINUM      195.0849     D
+ 79 Au GOLD          196.9665695  D
+ 80 Hg MERCURY       200.5923     D
+ 81 Tl THALLIUM      204.38       P
+ 82 Pb LEAD          207.21       P
+ 83 Bi BISMUTH       208.980401   P
+ 84 Po POLONIUM      209          P
+ 85 At ASTATINE      210          P
+ 86 Rn RADON         222          P
+ 87 Fr FRANCIUM      223          S
+ 88 Ra RADIUM        226          S
+ 89 Ac ACTINIUM      227          F
+ 90 Th THORIUM       232.03774    F
+ 91 Pa PROTACTINIUM  231.035882   F
+ 92  U URANIUM       238.028913   F
+ 93 Np NEPTUNIUM     237          F
+ 94 Pu PLUTONIUM     244          F
+ 95 Am AMERICIUM     243          F
+ 96 Cm CURIUM        247          F
+ 97 Bk BERKELIUM     247          F
+ 98 Cf CALIFORNIUM   251          F
+ 99 Es EINSTEINIUM   252          F
+100 Fm FERMIUM       257          F
+101 Md MENDELEVIUM   258          F
+102 No NOBELIUM      259          F
+103 Lr LAWRENCIUM    266          D
+104 Rf RUTHERFORDIUM 267          D
+105 Db DUBNIUM       268          D
+106 Sg SEABORGIUM    269          D
+107 Bh BOHRIUM       270          D
+108 Hs HASSIUM       269          D
+109 Mt MEITNERIUM    278          D
+110 Ds DARMSTADTIUM  281          D
+111 Rg ROENTGENIUM   282          D
+112 Cn COPERNICIUM   285          D
+113 Nh NIHONIUM      286          P
+114 Fl FLEROVIUM     289          P
+115 Mc MOSCOVIUM     289          P
+116 Lv LIVERMORIUM   293          P
+117 Ts TENNESSINE    294          P
+118 Og OGANESSON     294          P</string>
+    <bitmap id="Chemistry_PeriodicTable_Legend" filename="legend.png" />
+    <bitmap id="Chemistry_PeriodicTable_Table" filename="table.png" />
+</resources>

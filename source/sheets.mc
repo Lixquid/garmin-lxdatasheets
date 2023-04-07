@@ -1,5 +1,14 @@
 var lxSheets = [
     [
+        "Chemistry",
+        [
+            ["Periodic Table", [[$.Rez.Strings.Chemistry_PeriodicTable, [
+                {:xAlign => LX_ALIGN_CENTER, :i => $.Rez.Drawables.Chemistry_PeriodicTable_Table},
+                {:cx => 1, :cy => 15, :i => $.Rez.Drawables.Chemistry_PeriodicTable_Legend}
+            ]]]]
+        ]
+    ],
+    [
         "Communication",
         [
             ["ASCII Table", [[$.Rez.Strings.Communication_ASCIITable, []]]],
