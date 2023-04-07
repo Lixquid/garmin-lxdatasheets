@@ -1,0 +1,9 @@
+<resources>
+    <string id="Medical_RecoveryPosition">-------- RECOVERY POSITION --------
+1. HAND UNDER CHEEK
+2. KNEE AT 90 DEGREES
+3. GENTLY TURN ON SIDE
+4. TILT HEAD BACK
+5. LIFT CHIN, CLEAR AIRWAY</string>
+    <bitmap id="Medical_RecoveryPosition_Pose" filename="pose.png" />
+</resources>

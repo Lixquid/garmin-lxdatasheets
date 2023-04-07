@@ -60,6 +60,19 @@ var lxSheets = [
         ],
     ],
     [
+        "Medical",
+        [
+            ["Recovery Position", [
+                [
+                    $.Rez.Strings.Medical_RecoveryPosition,
+                    [
+                        {:xAlign => LX_ALIGN_CENTER, :cy => 7, :i => $.Rez.Drawables.Medical_RecoveryPosition_Pose}
+                    ]
+                ]
+            ]]
+        ]
+    ],
+    [
         "Physics", [
             ["Units", [[$.Rez.Strings.Physics_Units_1, []], [$.Rez.Strings.Physics_Units_2, []]]]
         ]
