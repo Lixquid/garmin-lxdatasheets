@@ -40,6 +40,23 @@ var lxSheets = [
                     ],
                 ],
             ],
+            [
+                "T568",
+                [
+                    [
+                        $.Rez.Strings.Electrical_T568,
+                        [
+                            {:x => 16, :cy=> 1, :i => $.Rez.Drawables.Electrical_T568_A},
+                            {:x => 24, :cy=> 1, :i => $.Rez.Drawables.Electrical_T568_A},
+                            {:x => 32, :cy=> 1, :i => $.Rez.Drawables.Electrical_T568_A},
+                            {:x => 16, :cy=> 11, :i => $.Rez.Drawables.Electrical_T568_B},
+                            {:x => 24, :cy=> 11, :i => $.Rez.Drawables.Electrical_T568_B},
+                            {:x => 32, :cy=> 11, :i => $.Rez.Drawables.Electrical_T568_B},
+                            {:xAlign => LX_ALIGN_CENTER, :cy=> 21, :i => $.Rez.Drawables.Electrical_T568_Pins},
+                        ]
+                    ]
+                ]
+            ]
         ],
     ],
     [

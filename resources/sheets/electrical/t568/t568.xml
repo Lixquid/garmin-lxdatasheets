@@ -1,0 +1,24 @@
+<resources>
+    <string id="Electrical_T568">T568A
+        1 GREEN+WHITE
+        2 GREEN
+        3 ORANGE+WHITE
+        4 BLUE
+        5 BLUE+WHITE
+        6 ORANGE
+        7 BROWN+WHITE
+        8 BROWN
+
+T-568B
+        1 ORANGE+WHITE
+        2 ORANGE
+        3 GREEN+WHITE
+        4 BLUE
+        5 BLUE+WHITE
+        6 GREEN
+        7 BROWN+WHITE
+        8 BROWN</string>
+    <bitmap id="Electrical_T568_A" filename="a.png" />
+    <bitmap id="Electrical_T568_B" filename="b.png" />
+    <bitmap id="Electrical_T568_Pins" filename="pins.png" />
+</resources>
