@@ -1,0 +1,21 @@
+<resources>
+    <string id="Communication_NATOAlphabet">A ALPHA   •-      N NOVEMBER -•
+B BRAVO   -•••    O OSCAR    ---
+C CHARLIE -•-•    P PAPA     •--•
+D DELTA   -••     Q QUEBEC   --•-
+E ECHO    •       R ROMEO    •-•
+F FOXTROT ••-•    S SIERRA   •••
+G GOLF    --•     T TANGO    -
+H HOTEL   ••••    U UNIFORM  ••-
+I INDIA   ••      V VICTOR   •••-
+J JULIET  •---    W WHISKEY  •--
+K KILO    -•-     X XRAY     -••-
+L LIMA    •-••    Y YANKEE   -•--
+M MIKE    --      Z ZULU     --••
+
+1 WUN     •----   6 SIX      -••••
+2 TOO     ••---   7 SEVEN    --•••
+3 TREE    •••--   8 AIT      ---••
+4 FOWER   ••••-   9 NINER    ----•
+5 FIFE    •••••   0 ZEERO    -----</string>
+</resources>

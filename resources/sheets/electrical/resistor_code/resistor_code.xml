@@ -1,0 +1,36 @@
+<resources>
+    <string id="Electrical_ResistorCode">
+
+
+
+
+
+
+
+
+
+
+
+
+
+4 BAND: DIG DIG MUL   TOL
+5 BAND: DIG DIG DIG MUL   TOL
+6 BAND: DIG DIG DIG MUL   TOL TEMP
+
+ COLOR  DIGIT MULT    TOL TEMPCOEF
+
+ BLACK   0     1Ω        250ppm/K
+ BROWN   1    10Ω    ±1% 100ppm/K
+ RED     2   100Ω    ±2%  50ppm/K
+ ORANGE  3    1kΩ         15ppm/K
+ YELLOW  4   10kΩ         25ppm/K
+ GREEN   5  100kΩ  ±0.5%  20ppm/K
+ BLUE    6    1MΩ ±0.25%  10ppm/K
+ VIOLET  7         ±0.1%   5ppm/K
+ GREY    8                 1ppm/K
+ WHITE   9
+ GOLD        0.1Ω   ±10%
+ SILVER     0.01Ω    ±5%</string>
+    <bitmap id="Electrical_ResistorCode_Diagram" filename="diagram.png" />
+    <bitmap id="Electrical_ResistorCode_Colors" filename="colors.png" />
+</resources>

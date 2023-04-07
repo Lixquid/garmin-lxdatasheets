@@ -1,0 +1,51 @@
+<resources>
+    <string id="Physics_Units_1">------------- LENGTH --------------
+MILLIMETRES (mm)
+    1mm = 0.1cm
+CENTIMETRES (cm)
+    1cm = 10mm
+    1cm = 0.01m
+METRES (m)
+    1m = 100cm
+    1m = 0.001km
+KILOMETRES (km)
+    1km = 1,000m
+
+INCHES (in)
+    1in = 2.54cm        ≈ 5/2
+      1cm = 0.3937008in ≈ 2/5
+FEET (ft)
+    1ft = 12in
+    1ft = 0.3048m       ≈ 3/10
+      1m = 3.28084ft    ≈ 10/3
+YARDS (yd)
+    1yd = 36in
+    1yd = 3ft
+    1yd = 0.9144m       ≈ 10/11
+      1m = 1.093613yd   ≈ 11/10
+MILES (mi)
+    1mi = 1,760yd
+    1mi = 5,280ft
+    1mi = 1.609344km    ≈ 8/5
+      1km = 0.6213712mi ≈ 5/8</string>
+    <string id="Physics_Units_2">-------------- AREA ---------------
+SQUARE METRES (m^2)
+    1m^2 = 1m⋅m
+    1m^2 = 0.0001ha
+HECTARES (ha)
+    1ha = 10,000m^2
+    1ha = 0.01km^2
+SQUARE KILOMETRES (km^2)
+    1km^2 = 100ha
+    1km^2 = 1,000,000m^2
+
+ACRES (acre)
+    1acre = 4,046.856m^2     ≈ 4000
+      1m^2 = 0.0002471054acre
+    1acre = 0.404685ha       ≈ 2/5
+      1ha = 2.471054acre     ≈ 5/2
+SQUARE MILES (mi^2)
+    1mi^2 = 640acre
+    1mi^2 = 2.58998811km^2   ≈ 13/5
+      1km^2 = 0.38610215mi^2 ≈ 5/13</string>
+</resources>
