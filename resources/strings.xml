@@ -3,4 +3,6 @@
     <string id="AppVersion">0.1.0</string>
 
     <string id="MainMenu_Sheets">All Sheets</string>
+    <string id="SheetMenu_Title">Sheet Menu</string>
+    <string id="SheetMenu_JumpToPage">Jump To Page</string>
 </strings>

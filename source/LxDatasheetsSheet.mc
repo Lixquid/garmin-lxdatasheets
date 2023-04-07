@@ -13,7 +13,7 @@ class LxDatasheetsSheet extends View {
     var screenHeight as Number;
 
     (:initialized)
-    private var _pages as Array<Array<Symbol or { :x as Number, :y as Number, :i as Symbol }> >;
+    var pages as Array<Array<Symbol or { :x as Number, :y as Number, :i as Symbol }> >;
     var page as Number = 0;
 
     var y as Number = 0;
@@ -21,21 +21,21 @@ class LxDatasheetsSheet extends View {
     private var _text as String;
     private var _drawables as Array<{ :x as Number, :y as Number, :i as BitmapResource }> = [];
 
-    function initialize(pages as Array<Array<Symbol or { :x as Number, :y as Number, :i as Symbol }> >) {
+    function initialize(cPages as Array<Array<Symbol or { :x as Number, :y as Number, :i as Symbol }> >) {
         View.initialize();
-        _pages = pages;
+        pages = cPages;
         loadPage(0);
     }
 
     function loadPage(newPage as Number) {
-        if (newPage < 0 || newPage >= _pages.size()) {
+        if (newPage < 0 || newPage >= pages.size()) {
             return;
         }
         page = newPage;
         y = 0;
-        _text = WatchUi.loadResource(_pages[newPage][0]);
+        _text = WatchUi.loadResource(pages[newPage][0]);
         _drawables = [];
-        var defs = _pages[newPage][1];
+        var defs = pages[newPage][1];
         for (var i = 0; i < defs.size(); i++) {
             var d = defs[i];
             var res = WatchUi.loadResource(d[:i]);
@@ -62,10 +62,10 @@ class LxDatasheetsSheet extends View {
     }
 
     function cyclePage() {
-        if (_pages.size() == 0) {
+        if (pages.size() == 0) {
             return;
         }
-        loadPage(page == _pages.size() - 1 ? 0 : page + 1);
+        loadPage(page == pages.size() - 1 ? 0 : page + 1);
     }
 
     function onUpdate(dc as Dc) {

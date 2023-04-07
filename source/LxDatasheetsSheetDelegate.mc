@@ -73,4 +73,9 @@ class LxDatasheetsSheetDelegate extends BehaviorDelegate {
         WatchUi.popView(SLIDE_IMMEDIATE);
         return true;
     }
+
+    function onMenu() as Boolean {
+        WatchUi.pushView(lxCreateSheetMenu(), new LxDatasheetsSheetMenuDelegate(_sheet), SLIDE_IMMEDIATE);
+        return true;
+    }
 }
