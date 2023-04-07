@@ -50,9 +50,9 @@ class LxDatasheetsSheet extends View {
                         break;
                 }
             } else {
-                x = d[:x] + (d.hasKey(:cx) ? d[:cx] * cW : 0);
+                x = (d.hasKey(:x) ? d[:x] : 0) + (d.hasKey(:cx) ? d[:cx] * cW : 0);
             }
-            var y = d[:y];
+            var y = d.hasKey(:y) ? d[:y] : 0;
             if (d.hasKey(:cy)) {
                 y += d[:cy] * cH;
             }
